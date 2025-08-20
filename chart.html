@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=League+Spartan:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Font Awesome CDN (Free version) -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <title>Document</title>
+</head>
+<body >
+<section id="header">
+  <a href="#"><img src="image/logo.png" class="logo" alt=""></a>
+  <div>
+    <ul id="navbar">
+      <li><a  href="index.html">الصفحة الرئيسية</a></li>
+      <li><a href="shop.html">المتجر</a></li>
+      <li class="dropdown">
+  <a href="blog.html" class="dropbtn">
+    أقسام
+    <span class="dropdown-arrow">▼</span>
+  </a>        <ul class="dropdown-content">
+          <li><a href="clothes.html">ملابس</a></li>
+          <li><a href="accessories.html" class="active">اكسسوارات</a></li>
+          <li><a href="perfume.html">عطور</a></li>
+          <li><a href="kids-clothes.html">ملابس أطفال</a></li>
+          <li><a href="watches.html">ساعات</a></li>
+          <a href="#" id="close"><i class="far fa-times"></i></a>
+        </ul>
+      </li>
+      <li><a href="about.html">عنا</a></li>
+      <li><a href="contact.html">تواصل معنا</a></li>
+      <li id="lg-bag" class="active">
+  <a href="chart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+</li>
+
+
+
+    </ul>
+  </div>
+<div id="mobile">
+  <a  href="chart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+  <i id="bar" class="fas fa-outdent"></i>
+</div>
+
+</section>
+
+
+  <section id="page-header">
+      <h2>   #سلة المشتريات</h2>
+      <p>وفر الكثير عن طريق كوبون الشراء &خصزمات تصل لأكثر من 70%</p>
+  </section>
+
+  <section id="chart" class="section-p1">
+  <table width="100%">
+    <thead>
+      <tr>
+        <td>إزالة</td>
+        <td>صورة</td>
+        <td>المنتج</td>
+        <td>السعر</td>
+        <td>الكمية</td>
+        <td>إجمالي السعر</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+        <td><img src="image/f1.jpg" alt=""></td>
+        <td>تي شيرت كارتون رائد الفضاء</td>
+        <td class="price">70</td>
+        <td>
+          <div class="quantity-container">
+            <button class="qty-btn minus">−</button>
+            <input type="text" value="1" class="qty-input">
+            <button class="qty-btn plus">+</button>
+          </div>
+        </td>
+        <td class="total-price">70</td>
+      </tr>
+      <tr>
+        <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+        <td><img src="image/f1.jpg" alt=""></td>
+        <td>تي شيرت كارتون رائد الفضاء</td>
+        <td class="price">70</td>
+        <td>
+          <div class="quantity-container">
+            <button class="qty-btn minus">−</button>
+            <input type="text" value="1" class="qty-input">
+            <button class="qty-btn plus">+</button>
+          </div>
+        </td>
+        <td class="total-price">70</td>
+      </tr>
+       <tr>
+        <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+        <td><img src="image/f1.jpg" alt=""></td>
+        <td>تي شيرت كارتون رائد الفضاء</td>
+        <td class="price">70</td>
+        <td>
+          <div class="quantity-container">
+            <button class="qty-btn minus">−</button>
+            <input type="text" value="1" class="qty-input">
+            <button class="qty-btn plus">+</button>
+          </div>
+        </td>
+        <td class="total-price">70</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+  <section id="chart-add" class="section-p1">
+    <div id="coupon">
+        <h3>أدخل كوبون الخصم</h3>
+        <div>
+            <input type="text" placeholder="أدخل الكوبون هنا">
+            <button class="normal">تطبيق</button>
+        </div>
+    </div>
+    <div id="subtotal">
+        <h3>محتويات السلة</h3>
+        <table>
+            <tr>
+                <td>محتويات السلة</td>
+                <td>334$</td>
+            </tr>
+            <tr>
+                <td>توصيل</td>
+                <td>مجانا</td>
+            </tr>
+            <tr>
+                <td><strong> مجموع المبلغ</strong> </td>
+                <td><strong>338$</strong></td>
+            </tr>
+        </table>
+        <button class="normal">إضغط لعرض التفاصيل</button>
+    </div>
+  </section>
+
+
+
+    <footer class="section-p1">
+    <div class="col">
+      <img class="logo" src="image/logo.png" alt="">
+      <h4>تواصل معنا</h4>
+      <p><strong>العنوان :</strong>القاهرة شارع 34 مصر</p>
+      <p><strong>الهاتف:</strong>++20 987765539</p>
+      <p><strong>ساعات العمل</strong>10:00 - 18:00 ,من الأثنين إلى  الجمعة</p>
+      <div class="follow">
+        <h4> تابعنا على مواقع التواصل الإجتماعي</h4>
+        <div class="icon">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-pinterest-p"></i>
+          <i class="fab fa-youtube"></i>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <h4>عنا</h4>
+      <a href="#">معلومات عنا</a>
+      <a href="#">معلومات التوصيل</a>
+      <a href="#">سياسات الخصوصية</a>
+      <a href="#">سياسات الخصوصية</a>
+      <a href="#">تواصل معنا</a>
+    </div>
+     <div class="col">
+      <h4>حسابي</h4>
+      <a href="#"> تسجيل الدخول</a>
+      <a href="#"> سلة مشترياتي</a>
+      <a href="#"> محفظتي</a>
+      <a href="#"> تتبع طلبيتي</a>
+      <a href="#"> مساعدة</a>
+    </div>
+    <div class="col install">
+      <h4>تثبيت التطبيق</h4>
+      <p>قم بتثبيت تطبيقنا للحصول على تجربة تسوق أفضل.</p>
+      <div class="row">
+        <img src="image/app.jpg" alt="">
+        <img src="image/play.jpg" alt="">
+      </div>
+      <p>الدفع الآمن مضمونة</p>
+      <img src="image/pay.png" alt="">
+    </div>
+
+    <div class="copy-right">
+      <p> © 2025 جميع الحقوق محفوظة لدى شركة The Line
+
+</p>
+    </div>
+  </footer>
+
+  
+
+ <script src="js/script.js"></script>
+</body>
+</html> 
+
+  
