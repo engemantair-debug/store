@@ -350,7 +350,7 @@ body{
   border: 1px solid #cce7d0;
   position: absolute;
   bottom: 20px;
-  right:258px ;
+  right:258px !important ;
 }
 #product1 .pro-container{
   display: flex;
@@ -1143,5 +1143,6 @@ footer .copyright{
 #product1 .pro .chart{
   right: 197px;
 }
+
 
 
